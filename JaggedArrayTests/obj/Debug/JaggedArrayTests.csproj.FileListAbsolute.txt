@@ -1,0 +1,9 @@
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\bin\Debug\JaggedArrayTests.dll
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\bin\Debug\JaggedArrayTests.pdb
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\bin\Debug\JaggedArraySort.dll
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\bin\Debug\nunit.framework.dll
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\bin\Debug\JaggedArraySort.pdb
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\bin\Debug\nunit.framework.xml
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\obj\Debug\JaggedArrayTests.csprojResolveAssemblyReference.cache
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\obj\Debug\JaggedArrayTests.dll
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\obj\Debug\JaggedArrayTests.pdb
