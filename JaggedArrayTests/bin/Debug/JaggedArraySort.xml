@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JaggedArraySort</name>
+    </assembly>
+    <members>
+        <member name="T:JaggedArraySort.Task2">
+            <summary>
+            Class for sorting jagged arrays
+            using different comparising rules
+            </summary>
+        </member>
+        <member name="M:JaggedArraySort.Task2.Sort(System.Int32[][],JaggedArraySort.IComparer)">
+            <summary>
+            method for sorting a jagged array
+            using a bubble sort algorythm
+            </summary>
+            <param name="jaggedArray">Jagged array for sorting</param>
+            <param name="comparer">Rule for comparison</param>
+        </member>
+        <member name="M:JaggedArraySort.Task2.Swap(System.Int32[]@,System.Int32[]@)">
+            <summary>
+            swap elems
+            </summary>
+            <param name="first">first array</param>
+            <param name="second">second array</param>
+        </member>
+        <member name="T:JaggedArraySort.IComparer">
+            <summary>
+            Has one method for comparing integer arrays
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -7,3 +7,4 @@ c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\Ja
 c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\obj\Debug\JaggedArrayTests.csprojResolveAssemblyReference.cache
 c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\obj\Debug\JaggedArrayTests.dll
 c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\obj\Debug\JaggedArrayTests.pdb
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\JaggedArrayTests\bin\Debug\JaggedArraySort.xml

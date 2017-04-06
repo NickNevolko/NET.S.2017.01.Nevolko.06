@@ -1,0 +1,7 @@
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\Polynomial\bin\Debug\Polynomial.dll
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\Polynomial\bin\Debug\Polynomial.pdb
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\Polynomial\bin\Debug\Configuration.dll
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\Polynomial\obj\Debug\Polynomial.csprojResolveAssemblyReference.cache
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\Polynomial\obj\Debug\Polynomial.dll
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\Polynomial\obj\Debug\Polynomial.pdb
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\Polynomial\bin\Debug\Polynomial.XML

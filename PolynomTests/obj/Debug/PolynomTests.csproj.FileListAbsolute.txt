@@ -1,0 +1,11 @@
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\obj\Debug\PolynomTests.csprojResolveAssemblyReference.cache
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\bin\Debug\PolynomTests.dll.config
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\bin\Debug\PolynomTests.dll
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\bin\Debug\PolynomTests.pdb
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\bin\Debug\nunit.framework.dll
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\bin\Debug\Polynomial.dll
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\bin\Debug\Polynomial.pdb
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\bin\Debug\nunit.framework.xml
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\obj\Debug\PolynomTests.dll
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\obj\Debug\PolynomTests.pdb
+C:\Users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.06\PolynomTests\bin\Debug\Polynomial.xml

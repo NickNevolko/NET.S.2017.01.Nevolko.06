@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Polynomial</name>
+    </assembly>
+    <members>
+        <member name="P:Polynomiall.Polynomial.Degree">
+            <summary>
+            Degree
+            </summary>
+        </member>
+        <member name="P:Polynomiall.Polynomial.Epsilon">
+            <summary>
+            Epsilon
+            </summary>
+        </member>
+        <member name="M:Polynomiall.Polynomial.#ctor(System.Double[])">
+            <summary>
+            Initialize a new instance
+            </summary>
+            <param name="coefficients">Taking coefficients of the polynome</param>
+        </member>
+        <member name="M:Polynomiall.Polynomial.Calculate(System.Double)">
+            <summary>
+            Calculating a result value of the polynome
+            </summary>
+            <param name="x">variable x</param>
+            <returns>result value</returns>
+        </member>
+        <member name="M:Polynomiall.Polynomial.Equals(Polynomiall.Polynomial)">
+            <summary>
+            Checks whether this instance has the same values with argument instance
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Polynomiall.Polynomial.ToString">
+            <summary>
+            Represents polynome as a string
+            </summary>
+            <returns>Represents polynome as a string</returns>
+        </member>
+        <member name="M:Polynomiall.Polynomial.op_Addition(Polynomiall.Polynomial,Polynomiall.Polynomial)">
+            <summary>
+            sum for two polynomes
+            </summary>
+            <param name="lhs">first</param>
+            <param name="rhs">second</param>
+            <returns>sum of two polynomes</returns>
+        </member>
+        <member name="M:Polynomiall.Polynomial.op_Subtraction(Polynomiall.Polynomial,Polynomiall.Polynomial)">
+            <summary>
+            substruct for two polynomes
+            </summary>
+            <param name="lhs">first</param>
+            <param name="rhs">second</param>
+            <returns>substractions of two polynomes</returns>
+        </member>
+        <member name="M:Polynomiall.Polynomial.op_Multiply(Polynomiall.Polynomial,Polynomiall.Polynomial)">
+            <summary>
+            multiplication of two polynomes
+            </summary>
+            <param name="lhs">first</param>
+            <param name="rhs">second</param>
+            <returns>multiplication of two polynomes</returns>
+        </member>
+    </members>
+</doc>
