@@ -2,11 +2,12 @@
 using JaggedArraySort;
 using static JaggedArraySort.Task2;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace JaggedArrayTests
 {
 
-    public class OrderBySumAscend : IComparer
+    public class OrderBySumAscend : IComparer<int[]>
     {
         public int Compare(int[] array1, int[] array2)
         {
@@ -21,7 +22,7 @@ namespace JaggedArrayTests
         }
     }
 
-    public class OrderBySumDescend : IComparer
+    public class OrderBySumDescend : IComparer<int[]>
     {
         public int Compare(int[] array1, int[] array2)
         {
@@ -35,7 +36,7 @@ namespace JaggedArrayTests
         }
     }
 
-    public class OrderByMaxElemAscend : IComparer
+    public class OrderByMaxElemAscend : IComparer<int[]>
     {
         public int Compare(int[] array1, int[] array2)
         {
@@ -49,7 +50,7 @@ namespace JaggedArrayTests
         }
     }
 
-    public class OrderByMaxElemDescend : IComparer
+    public class OrderByMaxElemDescend : IComparer<int[]>
     {
         public int Compare(int[] array1, int[] array2)
         {

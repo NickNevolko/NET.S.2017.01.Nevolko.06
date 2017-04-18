@@ -10,7 +10,7 @@
             using different comparising rules
             </summary>
         </member>
-        <member name="M:JaggedArraySort.Task2.Sort(System.Int32[][],JaggedArraySort.IComparer)">
+        <member name="M:JaggedArraySort.Task2.Sort(System.Int32[][],System.Collections.Generic.IComparer{System.Int32[]})">
             <summary>
             method for sorting a jagged array
             using a bubble sort algorythm
@@ -25,10 +25,41 @@
             <param name="first">first array</param>
             <param name="second">second array</param>
         </member>
-        <member name="T:JaggedArraySort.IComparer">
+        <member name="M:JaggedArraySort.Task2.Sort(System.Int32[][],System.Comparison{System.Int32[]})">
             <summary>
-            Has one method for comparing integer arrays
+            method for sorting a jagged array
+            using a bubble sort algorythm
             </summary>
+            <param name="jaggedArray">Jagged array for sorting</param>
+            <param name="comparison">Rule for comparison</param>
+        </member>
+        <member name="T:JaggedArraySort.Task2plus">
+            <summary>
+            to do: add normal comment
+            </summary>
+        </member>
+        <member name="M:JaggedArraySort.Task2plus.Sort(System.Int32[][],System.Comparison{System.Int32[]})">
+            <summary>
+            method for sorting a jagged array
+            using a bubble sort algorythm
+            </summary>
+            <param name="jaggedArray">Jagged array for sorting</param>
+            <param name="comparison">Rule for comparison</param>
+        </member>
+        <member name="M:JaggedArraySort.Task2plus.Swap(System.Int32[]@,System.Int32[]@)">
+            <summary>
+            swap elems
+            </summary>
+            <param name="first">first array</param>
+            <param name="second">second array</param>
+        </member>
+        <member name="M:JaggedArraySort.Task2plus.Sort(System.Int32[][],System.Collections.Generic.IComparer{System.Int32[]})">
+            <summary>
+            method for sorting a jagged array
+            using a bubble sort algorythm
+            </summary>
+            <param name="jaggedArray">Jagged array for sorting</param>
+            <param name="comparer">Rule for comparison</param>
         </member>
     </members>
 </doc>

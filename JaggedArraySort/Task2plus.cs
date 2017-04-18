@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 namespace JaggedArraySort
 {
     /// <summary>
-    /// Class for sorting jagged arrays
-    /// using different comparising rules
+    /// to do: add normal comment
     /// </summary>
-    public static class Task2
+    public static class Task2plus
     {
 
         /// <summary>
@@ -18,21 +17,21 @@ namespace JaggedArraySort
         /// using a bubble sort algorythm
         /// </summary>
         /// <param name="jaggedArray">Jagged array for sorting</param>
-        /// <param name="comparer">Rule for comparison</param>
-        public static void Sort(int[][] jaggedArray, IComparer<int[]> comparer)
+        /// <param name="comparison">Rule for comparison</param>
+        public static void Sort( int[][] jaggedArray, Comparison<int[]> comparison)
         {
             if (jaggedArray == null)
                 throw new ArgumentNullException(nameof(jaggedArray));
 
-            if (comparer == null)
-                throw new ArgumentNullException(nameof(comparer));
+            if (comparison == null)
+                throw new ArgumentNullException(nameof(comparison));
 
             for (int i = 0; i < jaggedArray.Length; i++)
                 for (int j = 1; j < jaggedArray.Length - i; j++)
-                    if (comparer.Compare(jaggedArray[j - 1], jaggedArray[j]) > 0)
+                    if (comparison(jaggedArray[j - 1], jaggedArray[j]) > 0)
                     {
-                        Swap(ref jaggedArray[j - 1], ref jaggedArray[j]);                      
-                    }            
+                        Swap(ref jaggedArray[j - 1], ref jaggedArray[j]);
+                    }
         }
 
         /// <summary>
@@ -53,13 +52,13 @@ namespace JaggedArraySort
         /// using a bubble sort algorythm
         /// </summary>
         /// <param name="jaggedArray">Jagged array for sorting</param>
-        /// <param name="comparison">Rule for comparison</param>
-        public static void Sort(int[][] jaggedArray, Comparison<int[]> comparison)
+        /// <param name="comparer">Rule for comparison</param>
+        public static void Sort(int[][] jaggedArray, IComparer<int[]> comparer)
         {
-            if (comparison == null)
+            if (comparer == null)
                 throw new ArgumentNullException();
 
-            Sort(jaggedArray, Comparer<int[]>.Create(comparison));
+            Sort(jaggedArray, comparer.Compare);
         }
 
     }

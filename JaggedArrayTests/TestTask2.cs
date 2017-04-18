@@ -17,7 +17,8 @@ namespace JaggedArrayTests
         [Test]
         public static void OrderBySumAscend_NullTest()
         {
-            Assert.Throws<ArgumentNullException>(() => Sort(null, new OrderBySumAscend()));
+            IComparer<int[]> comp = new OrderBySumAscend();
+            Assert.Throws<ArgumentNullException>(() => Sort(null, comp.Compare));
         }
 
         [Test]
@@ -53,7 +54,8 @@ namespace JaggedArrayTests
                 new[] { 2, 2, -1, -9, 7, -1, 4 },
                 new[] { 1, 2, 3, 4, 5, 7 } };
 
-            Sort(array, new OrderBySumAscend());
+            IComparer<int[]> comp = new OrderBySumAscend();
+            Sort(array, comp.Compare);
             Assert.AreEqual(array, testArray);
         }
 
